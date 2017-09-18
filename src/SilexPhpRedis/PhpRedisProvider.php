@@ -3,7 +3,7 @@
 namespace SilexPhpRedis;
 
 use Silex\Application;
-use Silex\ServiceProviderInterface;
+use Pimple\ServiceProviderInterface;
 
 class PhpRedisProvider implements ServiceProviderInterface
 {
